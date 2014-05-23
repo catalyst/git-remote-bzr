@@ -1,0 +1,5 @@
+git-remote-bzr for Debian
+-------------------------
+
+Just git pull and dpkg-buildpackage should do it.
+

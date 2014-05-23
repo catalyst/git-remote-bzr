@@ -5,6 +5,9 @@ mandir := $(prefix)/share/man/man1
 
 all: doc
 
+package:
+	dpkg-buildpackage -rfakeroot -b -tc
+
 doc: doc/git-remote-bzr.1
 
 test:

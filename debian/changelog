@@ -1,0 +1,5 @@
+git-remote-bzr (0.1-1) unstable; urgency=low
+
+  * Debianized, make up a version number.
+
+ -- Jonathan Harker <jonathan@catalyst.net.nz>  Fri, 23 May 2014 12:34:32 +1200

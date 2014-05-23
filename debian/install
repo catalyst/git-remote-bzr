@@ -1,0 +1,3 @@
+git-remote-bzr         /usr/bin
+README.asciidoc        /usr/share/doc/git-remote-bzr/README.txt
+doc/git-remote-bzr.1   /usr/share/man/man1

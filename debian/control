@@ -1,0 +1,17 @@
+Source: git-remote-bzr
+Section: devel
+Priority: optional
+Maintainer: Jonathan Harker <jonathan@catalyst.net.nz>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/felipec/git-remote-bzr
+Vcs-Git: https://github.com/felipec/git-remote-bzr
+Vcs-Browser: https://github.com/felipec/git-remote-bzr/commits/master
+
+Package: git-remote-bzr
+Architecture: all
+Depends: ${misc:Depends}, git, python-bzrlib
+Description: A git bridge for accessing remote Bazaar repositories
+ git-remote-bzr is the semi-official Bazaar bridge from the Git project.
+ Once installed, it allows you to clone, fetch and push to and from
+ Bazaar repositories as if they were Git repositories.
